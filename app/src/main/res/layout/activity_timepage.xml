@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gamts.life.Main.Main.TimepageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Done"
+        android:textSize="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="200dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Sleep"
+        android:textSize="15dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/textsleep"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:text="excersice"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:id="@+id/textexcersice"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="Work"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/textsWork"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backtomain"
+        android:id="@+id/backtomain"
+        android:onClick="back"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="130dp"
+        android:text="Sleep"
+        android:textSize="15dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/sleeprest"/>
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+
+        android:indeterminate="true"
+        android:max = "10"
+
+        android:minHeight="150dp"
+        android:minWidth="100dp"
+        android:progress="1"
+        android:id="@+id/progressbarsleep"
+
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:text="Work"
+        android:textSize="15dp"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/textworkrest"/>
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+
+        android:indeterminate="true"
+        android:max = "10"
+
+        android:minHeight="150dp"
+        android:minWidth="100dp"
+        android:progress="1"
+        android:id="@+id/progressbarWork"
+
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="50dp"
+        android:textSize="15dp"
+        android:text="Excersice"
+        android:id="@+id/Exrest"/>
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="90dp"
+
+        android:indeterminate="true"
+        android:max = "10"
+
+        android:minHeight="150dp"
+        android:minWidth="100dp"
+        android:progress="1"
+        android:id="@+id/progressbarEx"
+
+        />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="150dp"
+
+        android:indeterminate="false"
+        android:max = "10"
+
+        android:minHeight="150dip"
+        android:minWidth="100dip"
+        android:progress="1"
+        android:id="@+id/progressbarsleepdone"
+
+        />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="150dp"
+
+        android:indeterminate="false"
+        android:max = "10"
+
+        android:minHeight="150dip"
+        android:minWidth="100dip"
+        android:progress="1"
+        android:id="@+id/progressbarExdone"
+
+        />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+
+        android:indeterminate="false"
+        android:max = "10"
+
+        android:minHeight="150dip"
+        android:minWidth="100dip"
+        android:progress="1"
+        android:id="@+id/progressbarWorkdone"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/addprogresssleepdone"
+        android:id="@+id/addprogress"
+        android:onClick="addprosleep"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="290dp"
+        android:text="sleep (-)"
+        android:id="@+id/minusprogress"
+        android:onClick="minusprosleep"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:text="EXCERSice (-)"
+        android:id="@+id/minusprogressEx"
+        android:onClick="minusproEx"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="210dp"
+        android:text="WORK (-)"
+        android:id="@+id/minusprogressWork"
+        android:onClick="minusproWork"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/addprogressExdone"
+        android:id="@+id/addprogressEx"
+        android:onClick="addproEx"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/addprogressWorkdone"
+        android:id="@+id/addprogressWork"
+        android:onClick="addproWork"/>
+
+</RelativeLayout>

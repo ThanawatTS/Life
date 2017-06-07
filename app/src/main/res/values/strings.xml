@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Life</string>
+    <string name="adjustTime">Time</string>
+    <string name="backtomain">back</string>
+    <string name="gototeenager">Teenager</string>
+    <string name="gotoadult">Adult</string>
+    <string name="addprogresssleepdone">sleep</string>
+    <string name="addprogressExdone">Excersice</string>
+    <string name="addprogressWorkdone">Work</string>
+
 </resources>
